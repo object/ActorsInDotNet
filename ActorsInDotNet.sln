@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkkaS3Uploader", "Akka.NET\AkkaS3Uploader.csproj", "{1C0DA6CD-EBFC-A72C-C9D7-3651B33E56A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansS3Uploader", "Orleans\OrleansS3Uploader.csproj", "{7C2F5B38-E1CF-2360-4150-307E45B4054E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtoActor", "ProtoActor\ProtoActor.csproj", "{537F476D-B134-395B-5AD1-208426F15E19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3Uploader", "S3Uploader\S3Uploader.csproj", "{EF27E899-F760-ACDE-FBE3-7366B65212A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C0DA6CD-EBFC-A72C-C9D7-3651B33E56A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0DA6CD-EBFC-A72C-C9D7-3651B33E56A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0DA6CD-EBFC-A72C-C9D7-3651B33E56A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0DA6CD-EBFC-A72C-C9D7-3651B33E56A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C2F5B38-E1CF-2360-4150-307E45B4054E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2F5B38-E1CF-2360-4150-307E45B4054E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2F5B38-E1CF-2360-4150-307E45B4054E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2F5B38-E1CF-2360-4150-307E45B4054E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{537F476D-B134-395B-5AD1-208426F15E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{537F476D-B134-395B-5AD1-208426F15E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{537F476D-B134-395B-5AD1-208426F15E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{537F476D-B134-395B-5AD1-208426F15E19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF27E899-F760-ACDE-FBE3-7366B65212A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF27E899-F760-ACDE-FBE3-7366B65212A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF27E899-F760-ACDE-FBE3-7366B65212A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF27E899-F760-ACDE-FBE3-7366B65212A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8090EA2-D437-45F7-828C-2026C94AAEA2}
+	EndGlobalSection
+EndGlobal
